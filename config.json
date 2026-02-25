@@ -7,7 +7,7 @@
     "displayLine1": "Monday, the Eighth of June",
     "displayLine2": "Two Thousand Twenty-Six"
   },
-  "location": "Napa Valley",
+  "location": "Woodbury, Minnesota",
   "year": "2026",
   "venue": {
     "name": "Rosewood Estate",
@@ -15,8 +15,10 @@
     "directionsUrl": "https://maps.google.com"
   },
   "airports": [
-    { "name": "SFO", "duration": "30 min" },
-    { "name": "OAK", "duration": "25 min" }
+    {
+      "name": "MSP",
+      "duration": "30 min"
+    }
   ],
   "hotel": {
     "name": "Carneros Resort & Spa",
@@ -25,15 +27,44 @@
     "url": "https://carnerosresort.com"
   },
   "schedule": [
-    { "time": "4:00 pm", "name": "Arrival",           "desc": "Welcome drinks on the terrace" },
-    { "time": "4:30 pm", "name": "Ceremony",          "desc": "Please be seated by 4:15" },
-    { "time": "5:15 pm", "name": "Cocktail Hour",     "desc": "Wine, small bites & garden" },
-    { "time": "6:30 pm", "name": "Dinner & Dancing",  "desc": "" },
-    { "time": "12:00 am","name": "Send-Off",          "desc": "Sparkler farewell" }
+    {
+      "time": "6:00 pm",
+      "name": "Arrival",
+      "desc": "Welcome drinks on the terrace"
+    },
+    {
+      "time": "7:30 pm",
+      "name": "Ceremony",
+      "desc": "Please be seated by 4:15"
+    },
+    {
+      "time": "8:15 pm",
+      "name": "Cocktail Hour",
+      "desc": "Wine, small bites & garden"
+    },
+    {
+      "time": "9:30 pm",
+      "name": "Dinner & Dancing",
+      "desc": ""
+    },
+    {
+      "time": "10:00 am",
+      "name": "Send-Off",
+      "desc": "Sparkler farewell"
+    }
   ],
   "registries": [
-    { "name": "Crate & Barrel",  "url": "#" },
-    { "name": "Williams Sonoma", "url": "#" },
-    { "name": "Zola",            "url": "#" }
+    {
+      "name": "Amazon",
+      "url": "#"
+    },
+    {
+      "name": "Williams Sonoma",
+      "url": "#"
+    },
+    {
+      "name": "Zola",
+      "url": "#"
+    }
   ]
 }
