@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jayme &amp; Carlos — September 13, 2025</title>
+    <title>{{title}}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=EB+Garamond:wght@400&display=swap"
@@ -340,9 +340,9 @@
       <!-- HERO -->
       <div class="hero">
         <p class="eyebrow">the marriage of</p>
-        <h1 class="names">Jayme<span class="amp">&amp;</span>Carlos</h1>
+        <h1 class="names">{{bride}}<span class="amp">&amp;</span>{{groom}}</h1>
         <p class="date-line">
-          Saturday, the Thirteenth of September<br />Two Thousand Twenty-Five
+          {{dateDisplayLine1}}<br />{{dateDisplayLine2}}
         </p>
       </div>
 
@@ -373,40 +373,7 @@
       <!-- SCHEDULE -->
       <div class="section">
         <p class="section-head">the day</p>
-                <div class="tl-row">
-          <div class="tl-time">4:00 pm</div>
-          <div>
-            <div class="tl-name">Arrival</div>
-            <div class="tl-desc">Welcome drinks on the terrace</div>
-          </div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-time">4:30 pm</div>
-          <div>
-            <div class="tl-name">Ceremony</div>
-            <div class="tl-desc">Please be seated by 4:15</div>
-          </div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-time">5:15 pm</div>
-          <div>
-            <div class="tl-name">Cocktail Hour</div>
-            <div class="tl-desc">Wine, small bites &amp; garden</div>
-          </div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-time">6:30 pm</div>
-          <div>
-            <div class="tl-name">Dinner &amp; Dancing</div>
-          </div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-time">12:00 am</div>
-          <div>
-            <div class="tl-name">Send-Off</div>
-            <div class="tl-desc">Sparkler farewell</div>
-          </div>
-        </div>
+        {{schedule}}
       </div>
 
       <hr class="rule" />
@@ -417,10 +384,10 @@
 
         <div class="info-block">
           <span class="info-label">venue</span>
-          <div class="info-main">Rosewood Estate</div>
+          <div class="info-main">{{venueName}}</div>
           <div class="info-detail">
-            1234 Vineyard Lane, Napa, CA 94558<br /><a
-              href="https://maps.google.com"
+            {{venueAddress}}<br /><a
+              href="{{venueDirectionsUrl}}"
               target="_blank"
               >Directions →</a
             >
@@ -429,16 +396,16 @@
 
         <div class="info-block">
           <span class="info-label">nearest airports</span>
-          <div class="info-detail">SFO — 30 min &nbsp;·&nbsp; OAK — 25 min</div>
+          <div class="info-detail">{{airportList}}</div>
         </div>
 
         <div class="info-block">
           <span class="info-label">hotel block</span>
-          <div class="info-main">Carneros Resort &amp; Spa</div>
+          <div class="info-main">{{hotelName}}</div>
           <div class="info-detail">
-            Code <em>EMMAJAMES</em> for a discounted rate. Block held until
-            August 1st.<br /><a
-              href="https://carnerosresort.com"
+            Code <em>{{hotelCode}}</em> for a discounted rate. Block held until
+            {{hotelBlockDeadline}}.<br /><a
+              href="{{hotelUrl}}"
               target="_blank"
               >Book →</a
             >
@@ -452,9 +419,7 @@
       <div class="section">
         <p class="section-head">registry</p>
         <ul class="registry-list">
-                    <li>Crate &amp; Barrel <a href="#" target="_blank">View →</a></li>
-          <li>Williams Sonoma <a href="#" target="_blank">View →</a></li>
-          <li>Zola <a href="#" target="_blank">View →</a></li>
+          {{registry}}
         </ul>
       </div>
 
@@ -487,12 +452,12 @@
       </svg>
 
       <footer>
-        Jayme &amp; Carlos &nbsp;·&nbsp; Napa Valley &nbsp;·&nbsp; 2025
+        {{footerCouple}} &nbsp;·&nbsp; {{footerLocation}} &nbsp;·&nbsp; {{footerYear}}
       </footer>
     </main>
 
     <script>
-      const wedding = new Date("2025-09-13T16:00:00");
+      const wedding = new Date("{{countdownIso}}");
       function tick() {
         const d = wedding - new Date();
         if (d <= 0) return;
