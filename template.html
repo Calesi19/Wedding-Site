@@ -39,16 +39,6 @@
         padding: 5rem 2.5rem 6rem;
       }
 
-      /* ─── SVG BOTANICAL HEADER ─── */
-      .botanical {
-        display: block;
-        width: 100%;
-        max-width: 400px;
-        margin: 0 auto 3rem;
-        opacity: 0;
-        animation: appear 1.2s 0.2s forwards;
-      }
-
       /* ─── HERO ─── */
       .hero {
         text-align: center;
@@ -302,70 +292,9 @@
   </head>
   <body>
     <main>
-      <!-- BOTANICAL LINE DRAWING -->
-      <svg
-        class="botanical"
-        viewBox="0 0 400 160"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        stroke="#1c1a17"
-        stroke-width="0.75"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <!-- LEFT MAIN STEM -->
-        <path d="M55 155 C60 130 75 105 95 80" />
-        <path d="M95 80 C110 58 130 38 148 22" />
-
-        <!-- Left leaves -->
-        <path d="M95 80 C78 68 65 72 62 80 C76 78 88 80 95 80" />
-        <path d="M110 60 C94 48 82 52 80 60 C93 57 104 59 110 60" />
-        <path d="M125 42 C112 30 100 34 99 42 C110 39 120 41 125 42" />
-        <path d="M82 105 C65 96 55 102 56 110 C68 106 78 106 82 105" />
-        <path d="M68 130 C52 123 44 130 46 138 C57 133 65 132 68 130" />
-
-        <!-- LEFT FLOWER -->
-        <circle cx="148" cy="22" r="4.5" />
-        <path d="M148 17 C151 11 148 5 148 5 C145 11 148 17 148 17" />
-        <path d="M153 22 C159 19 163 22 163 22 C159 25 153 22 153 22" />
-        <path d="M148 27 C151 33 148 39 148 39 C145 33 148 27 148 27" />
-        <path d="M143 22 C137 19 133 22 133 22 C137 25 143 22 143 22" />
-        <path d="M151 19 C155 13 155 7 155 7 C149 13 151 19 151 19" />
-        <path d="M145 19 C141 13 141 7 141 7 C147 13 145 19 145 19" />
-
-        <!-- RIGHT MAIN STEM (mirror) -->
-        <path d="M345 155 C340 130 325 105 305 80" />
-        <path d="M305 80 C290 58 270 38 252 22" />
-
-        <!-- Right leaves -->
-        <path d="M305 80 C322 68 335 72 338 80 C324 78 312 80 305 80" />
-        <path d="M290 60 C306 48 318 52 320 60 C307 57 296 59 290 60" />
-        <path d="M275 42 C288 30 300 34 301 42 C290 39 280 41 275 42" />
-        <path d="M318 105 C335 96 345 102 344 110 C332 106 322 106 318 105" />
-        <path d="M332 130 C348 123 356 130 354 138 C343 133 335 132 332 130" />
-
-        <!-- RIGHT FLOWER -->
-        <circle cx="252" cy="22" r="4.5" />
-        <path d="M252 17 C255 11 252 5 252 5 C249 11 252 17 252 17" />
-        <path d="M257 22 C263 19 267 22 267 22 C263 25 257 22 257 22" />
-        <path d="M252 27 C255 33 252 39 252 39 C249 33 252 27 252 27" />
-        <path d="M247 22 C241 19 237 22 237 22 C241 25 247 22 247 22" />
-        <path d="M255 19 C259 13 259 7 259 7 C253 13 255 19 255 19" />
-        <path d="M249 19 C245 13 245 7 245 7 C251 13 249 19 249 19" />
-
-        <!-- CENTER SPRIG -->
-        <path d="M200 150 L200 105" />
-        <path d="M200 130 C192 120 184 122 183 128 C191 126 197 129 200 130" />
-        <path d="M200 115 C208 105 216 107 217 113 C209 111 203 114 200 115" />
-        <circle cx="200" cy="98" r="3.5" />
-        <path d="M200 94 C202 89 200 84 200 84 C198 89 200 94 200 94" />
-        <path d="M204 98 C209 96 212 98 212 98 C209 100 204 98 204 98" />
-        <path d="M196 98 C191 96 188 98 188 98 C191 100 196 98 196 98" />
-      </svg>
-
       <!-- HERO -->
       <div class="hero">
-        <p class="eyebrow">the marriage of</p>
+        <p class="eyebrow">you're invited to celebrate the marriage of</p>
         <h1 class="names">{{bride}}<span class="amp">&amp;</span>{{groom}}</h1>
         <p class="date-line">
           {{dateDisplayLine1}}<br />{{dateDisplayLine2}}
