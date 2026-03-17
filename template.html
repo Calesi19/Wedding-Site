@@ -247,6 +247,31 @@
         text-decoration: underline;
       }
 
+      /* ─── RSVP BUTTON ─── */
+      .rsvp-wrap {
+        text-align: center;
+        margin: 1rem 0 2.5rem;
+        opacity: 0;
+        animation: appear 1s 1s forwards;
+      }
+      .rsvp-btn {
+        display: inline-block;
+        font-family: "Cormorant Garamond", serif;
+        font-style: italic;
+        font-size: 1rem;
+        letter-spacing: 0.08em;
+        color: var(--bg);
+        background: var(--ink);
+        text-decoration: none;
+        padding: 0.7rem 2.5rem;
+        border: 1px solid var(--ink);
+        transition: background 0.2s, color 0.2s;
+      }
+      .rsvp-btn:hover {
+        background: var(--bg);
+        color: var(--ink);
+      }
+
       /* ─── FOOTER ─── */
       .botanical-footer {
         display: block;
@@ -367,6 +392,11 @@
             ><span class="cd-label">seconds</span>
           </div>
         </div>
+      </div>
+
+      <!-- RSVP -->
+      <div class="rsvp-wrap">
+        <a class="rsvp-btn" href="{{rsvpUrl}}" target="_blank">RSVP</a>
       </div>
 
       <hr class="rule rule-double" />

@@ -54,6 +54,7 @@ const replacements = {
   hotelCode:         esc(config.hotel.code),
   hotelBlockDeadline: esc(config.hotel.blockDeadline),
   hotelUrl:          esc(config.hotel.url),
+  rsvpUrl:           esc(config.rsvpUrl),
   registry:          registryHtml,
   footerCouple:      esc(`${config.bride} & ${config.groom}`),
   footerLocation:    esc(config.location),
