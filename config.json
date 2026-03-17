@@ -1,18 +1,18 @@
 {
   "bride": "Jayme",
   "groom": "Carlos",
-  "title": "Jayme & Carlos — June 8, 2026",
+  "title": "Jayme & Carlos — June 9, 2026",
   "date": {
-    "iso": "2026-06-08T18:00:00",
-    "displayLine1": "Monday, the Eighth of June",
+    "iso": "2026-06-09T18:00:00",
+    "displayLine1": "Tuesday, the Ninth of June",
     "displayLine2": "Two Thousand Twenty-Six"
   },
   "location": "Woodbury, Minnesota",
   "year": "2026",
   "venue": {
-    "name": "Rosewood Estate",
-    "address": "1234 Vineyard Lane, Napa, CA 94558",
-    "directionsUrl": "https://maps.google.com"
+    "name": "Prestwick Golf Club",
+    "address": "9555 Wedgewood Dr, Woodbury, MN 55125",
+    "directionsUrl": "https://maps.google.com/?q=9555+Wedgewood+Dr,+Woodbury,+MN+55125"
   },
   "airports": [
     {
@@ -20,39 +20,8 @@
       "duration": "30 min"
     }
   ],
-  "hotel": {
-    "name": "Carneros Resort & Spa",
-    "code": "EMMAJAMES",
-    "blockDeadline": "August 1st",
-    "url": "https://carnerosresort.com"
-  },
-  "schedule": [
-    {
-      "time": "6:00 pm",
-      "name": "Arrival",
-      "desc": "Welcome drinks on the terrace"
-    },
-    {
-      "time": "7:30 pm",
-      "name": "Ceremony",
-      "desc": "Please be seated by 4:15"
-    },
-    {
-      "time": "8:15 pm",
-      "name": "Cocktail Hour",
-      "desc": "Wine, small bites & garden"
-    },
-    {
-      "time": "9:30 pm",
-      "name": "Dinner & Dancing",
-      "desc": ""
-    },
-    {
-      "time": "10:00 am",
-      "name": "Send-Off",
-      "desc": "Sparkler farewell"
-    }
-  ],
+  "hotel": null,
+  "schedule": null,
   "rsvpUrl": "https://tally.so/r/XxqRYj",
   "registries": [
     {

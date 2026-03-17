@@ -401,13 +401,7 @@
 
       <hr class="rule rule-double" />
 
-      <!-- SCHEDULE -->
-      <div class="section">
-        <p class="section-head">the day</p>
-        {{schedule}}
-      </div>
-
-      <hr class="rule" />
+      {{scheduleSection}}
 
       <!-- TRAVEL -->
       <div class="section">
@@ -430,18 +424,7 @@
           <div class="info-detail">{{airportList}}</div>
         </div>
 
-        <div class="info-block">
-          <span class="info-label">hotel block</span>
-          <div class="info-main">{{hotelName}}</div>
-          <div class="info-detail">
-            Code <em>{{hotelCode}}</em> for a discounted rate. Block held until
-            {{hotelBlockDeadline}}.<br /><a
-              href="{{hotelUrl}}"
-              target="_blank"
-              >Book →</a
-            >
-          </div>
-        </div>
+        {{hotelBlock}}
       </div>
 
       <hr class="rule" />
