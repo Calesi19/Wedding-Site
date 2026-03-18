@@ -25,16 +25,12 @@
   "rsvpUrl": "https://tally.so/r/XxqRYj",
   "registries": [
     {
+      "name": "Target",
+      "url": "https://www.target.com/gift-registry/gift/jayme-and-carlos"
+    },
+    {
       "name": "Amazon",
       "url": "https://www.amazon.com/wedding/share/jayme-and-carlos"
-    },
-    {
-      "name": "Williams Sonoma",
-      "url": "#"
-    },
-    {
-      "name": "Zola",
-      "url": "#"
     }
   ]
 }
