@@ -73,7 +73,6 @@ const replacements = {
   venueDirectionsUrl: esc(config.venue.directionsUrl),
   airportList,
   hotelBlock:        hotelBlockHtml,
-  rsvpUrl:           esc(config.rsvpUrl),
   registry:          registryHtml,
   footerCouple:      esc(`${config.bride} & ${config.groom}`),
   footerLocation:    esc(config.location),
