@@ -24,6 +24,10 @@
   "schedule": null,
   "registries": [
     {
+      "name": "Target",
+      "url": "https://www.target.com/gift-registry/gift/jayme-and-carlos"
+    },
+    {
       "name": "Amazon",
       "url": "https://www.amazon.com/wedding/share/jayme-and-carlos"
     }
